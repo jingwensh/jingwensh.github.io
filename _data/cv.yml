@@ -1,14 +1,10 @@
+# Academic CV (working draft). Confirm details before final public release.
 cv:
   name: Jingwen Shi
-  label: PhD Student in Economic History
+  headline: PhD Student in Economic History
   email: J.Shi42@lse.ac.uk
   location: London, United Kingdom
-  image: ""
-  summary: >-
-    PhD student in Economic History at LSE. Research interests include
-    poor relief, private charity, labour markets, and local institutions
-    in early modern England.
-
+  website: https://jingwensh.github.io
   social_networks:
     - network: GitHub
       username: jingwensh
@@ -18,22 +14,21 @@ cv:
       - institution: London School of Economics and Political Science
         location: London, United Kingdom
         area: Economic History
-        studyType: MPhil/PhD
+        degree: MPhil/PhD
         start_date: 2024-09
         end_date: present
         highlights:
           - "Supervisors: Patrick Wallis and Melanie Meng Xue."
-          - "Dissertation (working title): Altruism, Authority, and Allocation: Private Charity and Parish Relief in Early Modern England."
       - institution: London School of Economics and Political Science
         location: London, United Kingdom
         area: Economic History (Research)
-        studyType: MSc
+        degree: MSc
         start_date: 2023-09
         end_date: 2024-09
       - institution: Shanghai Jiao Tong University
         location: Shanghai, China
         area: Economics
-        studyType: BSc
+        degree: BSc
         start_date: 2019-09
         end_date: 2023-06
         highlights:
@@ -46,8 +41,8 @@ cv:
         start_date: 2023-08
         end_date: present
         highlights:
-          - "Research on British industrialization and cultural change using historical proverbs and printed texts."
-          - "Computational text analysis and regional panel analysis."
+          - Research on British industrialization and cultural change using historical proverbs and printed texts.
+          - Computational text analysis and regional panel analysis.
 
     Teaching Experience:
       - company: London School of Economics and Political Science
@@ -62,25 +57,19 @@ cv:
         end_date: 2026-05
 
     Presentations:
-      - title: "Poster presentation — Economic History Society Annual Conference"
-        date: 2026-04
-      - title: "Paper presentation — ESTER Workshop"
-        date: 2025-11
+      - bullet: "Poster presentation, Economic History Society Annual Conference (April 2026)."
+      - bullet: "Paper presentation, ESTER Workshop (November 2025)."
 
     Awards:
-      - title: LSE PhD Studentship
-        date: 2024
-        awarder: London School of Economics and Political Science
-      - title: FORESIGHT-Sequoia Talent Development Fund Scholarship
-        date: 2021
-        awarder: Shanghai Jiao Tong University
+      - bullet: "LSE PhD Studentship (2024–2028)."
+      - bullet: "FORESIGHT-Sequoia Talent Development Fund Scholarship, Shanghai Jiao Tong University (2021–2022)."
 
     Skills:
-      - name: Research and computational tools
-        keywords: "Stata, Python, R, ArcGIS, LaTeX"
+      - label: Programming and software
+        details: Stata, Python, R, ArcGIS, LaTeX
 
     Languages:
-      - name: Mandarin
-        summary: Native
-      - name: English
-        summary: Proficient
+      - label: Mandarin
+        details: Native
+      - label: English
+        details: Proficient
