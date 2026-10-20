@@ -3,6 +3,7 @@
 This repository contains the source for [Jingwen Shi's academic website](https://jingwensh.github.io/), built with the [al-folio](https://github.com/alshedivat/al-folio) Jekyll template.
 
 Website content:
+
 - `_pages/about.md`: homepage and introduction
 - `_pages/research.md`: current research
 - `_pages/teaching.md`: teaching
