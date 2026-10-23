@@ -13,8 +13,8 @@ description:
 
     <div class="cv-entry">
       <div class="cv-entry-main">
-        <p class="cv-primary">MPhil/PhD in Economic History</p>
-        <p class="cv-secondary">London School of Economics and Political Science</p>
+        <p class="cv-primary">London School of Economics and Political Science</p>
+        <p class="cv-secondary">MPhil/PhD in Economic History</p>
         <p class="cv-detail">LSE PhD Studentship (2024–2028)</p>
       </div>
       <span class="cv-date">Sep 2024 – Present</span>
@@ -22,16 +22,16 @@ description:
 
     <div class="cv-entry">
       <div class="cv-entry-main">
-        <p class="cv-primary">MSc in Economic History (Research)</p>
-        <p class="cv-secondary">London School of Economics and Political Science</p>
+        <p class="cv-primary">London School of Economics and Political Science</p>
+        <p class="cv-secondary">MSc in Economic History (Research)</p>
       </div>
       <span class="cv-date">Sep 2023 – Sep 2024</span>
     </div>
 
     <div class="cv-entry">
       <div class="cv-entry-main">
-        <p class="cv-primary">BSc in Economics</p>
-        <p class="cv-secondary">Shanghai Jiao Tong University</p>
+        <p class="cv-primary">Shanghai Jiao Tong University</p>
+        <p class="cv-secondary">BSc in Economics</p>
         <p class="cv-detail">Minors in History and Finance</p>
       </div>
       <span class="cv-date">Sep 2019 – Jun 2023</span>
