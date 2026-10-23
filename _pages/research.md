@@ -7,14 +7,14 @@ nav_order: 10
 description:
 ---
 
-My research draws on annual poor-relief expenditure data from **312 parishes across 42 English counties**, combining newly collected archival records with the parish series assembled by [Brodie Waddell (2021)](https://doi.org/10.1093/pastj/gtaa027). I have also digitised **approximately 167k individual disbursement entries** from parish accounts.
+I have collected and digitised poor-relief accounts for **132 additional parishes**, extending the 180-parish series compiled by [Brodie Waddell (2021)](https://doi.org/10.1093/pastj/gtaa027) to **312 parishes across 42 English counties**. I have also transcribed **approximately 167k individual disbursement entries** from parish accounts.
 
 <p class="research-status">All papers listed below are works in progress.</p>
 
 <div class="research-list">
   <section class="research-entry">
     <h2>Why Did Poor Relief Expand?</h2>
-    <p>Temporary subsistence shocks increased parish relief spending, but their effects alone cannot explain its sustained growth. Using parish expenditure and financial accounts, I examine how local fiscal adjustment could translate short-run pressures into longer-lasting changes in relief provision.</p>
+    <p>Parish relief responded to subsistence shocks, but these responses dissipated rather than generating a sustained ratchet effect. I investigate how local economic structures and institutional arrangements shaped long-run expansion, including how fiscal adjustment asymmetry could translate short-run pressures into longer-lasting changes in relief provision.</p>
   </section>
 
   <section class="research-entry">
@@ -23,7 +23,7 @@ My research draws on annual poor-relief expenditure data from **312 parishes acr
   </section>
 
   <section class="research-entry">
-    <h2>Selective Welfare in Early Modern England: Poor Relief, Charity, and Regional Divergence, 1600–1786</h2>
-    <p>Preliminary evidence suggests that private charity increasingly targeted particular groups, while parish poor relief shifted towards more purpose-defined payments. I trace these distinct patterns of selectivity over time and across regions using parish disbursement records and charitable endowments.</p>
+    <h2>Selective Welfare in Early Modern England</h2>
+    <p>Preliminary evidence suggests that private charity increasingly targeted particular groups, while parish poor relief shifted towards more purpose-defined payments. Using parish disbursement records and charitable endowments, I trace these changes over time and examine regional divergence in welfare allocation.</p>
   </section>
 </div>
