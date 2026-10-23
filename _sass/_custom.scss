@@ -124,75 +124,112 @@ footer.sticky-bottom .container {
   letter-spacing: 0.01em;
 }
 
-/* Simple, single-column academic CV: no cards, columns, timelines or index. */
+/* Academic CV: clear hierarchy with unobtrusive right-aligned dates. */
 .academic-cv {
-  max-width: 790px;
+  max-width: 800px;
   margin: 0 0 2.5rem;
-  padding: 0;
 }
 .academic-cv .cv-section {
-  border: 0;
-  background: transparent;
-  margin: 0 0 1.35rem;
+  margin: 0 0 1.75rem;
   padding: 0;
+  background: transparent;
+  border: 0;
 }
 .academic-cv .cv-section h2 {
   font-family: "DM Sans", "Segoe UI", sans-serif;
   color: var(--site-heading-color);
-  font-size: 0.98rem;
-  font-weight: 650;
+  font-size: 1.06rem;
+  font-weight: 700;
+  line-height: 1.35;
   letter-spacing: -0.015em;
-  line-height: 1.4;
   text-transform: none;
-  margin: 0 0 0.38rem;
+  margin: 0 0 0.7rem;
+  padding-bottom: 0.32rem;
+  border-bottom: 1px solid var(--site-border-color);
+}
+.academic-cv .cv-entry {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 185px;
+  column-gap: 1.5rem;
+  align-items: start;
+  margin: 0 0 0.93rem;
+}
+.academic-cv .cv-entry-main {
+  min-width: 0;
 }
 .academic-cv .cv-section p,
 .post article .academic-cv .cv-section p {
-  color: var(--global-text-color);
-  font-size: 0.93rem;
-  line-height: 1.55;
-  margin: 0 0 0.34rem;
+  margin: 0;
+  line-height: 1.48;
 }
-.academic-cv .cv-section strong {
+.academic-cv .cv-primary,
+.post article .academic-cv .cv-primary {
+  color: var(--global-text-color);
+  font-family: "DM Sans", "Segoe UI", sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+.academic-cv .cv-secondary,
+.post article .academic-cv .cv-secondary {
+  color: var(--global-text-color);
+  font-size: 0.9rem;
+  margin-top: 0.1rem;
+}
+.academic-cv .cv-detail,
+.post article .academic-cv .cv-detail {
+  color: var(--global-text-color-light);
+  font-size: 0.86rem;
+  margin-top: 0.13rem;
+}
+.academic-cv .cv-paper-title,
+.post article .academic-cv .cv-paper-title {
+  font-style: italic;
+  font-weight: 500;
+}
+.academic-cv .cv-date {
+  color: var(--global-text-color-light);
+  font-size: 0.86rem;
+  line-height: 1.55;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  text-align: right;
+}
+.academic-cv .cv-entry--grouped {
+  margin-bottom: 0.3rem;
+}
+.academic-cv .cv-entry--course {
+  margin-bottom: 0.28rem;
+  padding-left: 0.9rem;
+}
+.academic-cv .cv-course-name,
+.post article .academic-cv .cv-course-name {
+  color: var(--global-text-color);
+  font-size: 0.9rem;
+}
+.academic-cv .cv-skill-line,
+.post article .academic-cv .cv-skill-line {
+  font-size: 0.91rem;
+  margin-bottom: 0.24rem;
+}
+.academic-cv .cv-skill-line strong {
+  display: inline-block;
+  min-width: 6.2rem;
   font-weight: 600;
 }
-.academic-cv .cv-section em {
-  font-style: italic;
-}
 .post:has(.academic-cv) .post-header .post-title {
-  font-size: 1.65rem;
-  margin-bottom: 0.85rem;
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
 }
-@media (max-width: 600px) {
-  .academic-cv .cv-section p,
-  .post article .academic-cv .cv-section p {
-    font-size: 0.91rem;
+@media (max-width: 640px) {
+  .academic-cv .cv-entry {
+    grid-template-columns: minmax(0, 1fr);
+    row-gap: 0.13rem;
+    margin-bottom: 0.9rem;
   }
-}
-
-/* Quiet hierarchy for grouped teaching courses and RA paper credits. */
-.academic-cv .cv-subline {
-  margin-left: 1rem !important;
-  font-size: 0.9rem !important;
-  color: var(--global-text-color-light) !important;
-}
-.academic-cv .cv-role {
-  margin-top: 0.75rem !important;
-}
-.academic-cv .cv-authors {
-  font-size: 0.84rem !important;
-}
-
-/* Subordinate paper/author and course lines within grouped CV positions. */
-.academic-cv .cv-section p.cv-subline,
-.post article .academic-cv .cv-section p.cv-subline {
-  margin-left: 0.9rem;
-  font-size: 0.88rem;
-  color: var(--global-text-color-light);
-  margin-bottom: 0.17rem;
-}
-.academic-cv .cv-section p.cv-role,
-.post article .academic-cv .cv-section p.cv-role {
-  margin-top: 0.8rem;
-  margin-bottom: 0.2rem;
+  .academic-cv .cv-date {
+    text-align: left;
+    font-size: 0.82rem;
+  }
+  .academic-cv .cv-entry--course { margin-bottom: 0.46rem; }
 }
