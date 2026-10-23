@@ -242,3 +242,33 @@ footer.sticky-bottom .container {
   }
   .academic-cv .cv-entry--course { margin-bottom: 0.46rem; }
 }
+
+/* Research page: orderly paper list with clear title/description hierarchy. */
+.post article .research-status {
+  color: var(--global-text-color-light);
+  font-size: 0.9rem;
+  font-style: italic;
+  margin: 0.55rem 0 1.65rem;
+}
+.post article .research-list .research-entry {
+  margin: 0;
+  padding: 0;
+}
+.post article .research-list .research-entry + .research-entry {
+  margin-top: 2.05rem;
+}
+.post article .research-list .research-entry h2 {
+  color: var(--site-heading-color);
+  font-family: "DM Sans", "Segoe UI", sans-serif;
+  font-size: 1.08rem;
+  font-weight: 600;
+  letter-spacing: -0.018em;
+  line-height: 1.4;
+  margin: 0 0 0.42rem;
+}
+.post article .research-list .research-entry p {
+  color: var(--global-text-color);
+  font-size: 0.97rem;
+  line-height: 1.68;
+  margin: 0;
+}
