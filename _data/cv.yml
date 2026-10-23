@@ -19,6 +19,7 @@ cv:
         end_date: present
         highlights:
           - "Supervisors: Patrick Wallis and Melanie Meng Xue."
+          - "LSE PhD Studentship (2024–2028)."
       - institution: London School of Economics and Political Science
         location: London, United Kingdom
         area: Economic History (Research)
@@ -59,10 +60,6 @@ cv:
     Presentations:
       - bullet: "Poster presentation, Economic History Society Annual Conference (April 2026)."
       - bullet: "Paper presentation, ESTER Workshop (November 2025)."
-
-    Awards:
-      - bullet: "LSE PhD Studentship (2024–2028)."
-      - bullet: "FORESIGHT-Sequoia Talent Development Fund Scholarship, Shanghai Jiao Tong University (2021–2022)."
 
     Skills:
       - label: Programming and software
