@@ -160,3 +160,17 @@ footer.sticky-bottom .container {
 .academic-cv .cv-authors {
   font-size: 0.84rem !important;
 }
+
+/* Subordinate paper/author and course lines within grouped CV positions. */
+.academic-cv .cv-section p.cv-subline,
+.post article .academic-cv .cv-section p.cv-subline {
+  margin-left: 0.9rem;
+  font-size: 0.88rem;
+  color: var(--global-text-color-light);
+  margin-bottom: 0.17rem;
+}
+.academic-cv .cv-section p.cv-role,
+.post article .academic-cv .cv-section p.cv-role {
+  margin-top: 0.8rem;
+  margin-bottom: 0.2rem;
+}

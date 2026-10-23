@@ -1,13 +1,8 @@
-# Academic CV (working draft). Confirm details before final public release.
+# Source data for a future downloadable CV; the public CV page uses _pages/cv.md.
 cv:
   name: Jingwen Shi
   headline: PhD Student in Economic History
-  email: J.Shi42@lse.ac.uk
   location: London, United Kingdom
-  website: https://jingwensh.github.io
-  social_networks:
-    - network: GitHub
-      username: jingwensh
 
   sections:
     Education:
@@ -33,40 +28,37 @@ cv:
         start_date: 2019-09
         end_date: 2023-06
         highlights:
-          - Minor in History and Finance.
+          - Minors in History and Finance.
+
+    Papers in Progress:
+      - bullet: "Why Did Poor Relief Expand? Re-Examining the Growth of Parish Relief in England, 1600–1786 (in progress)."
+      - bullet: "Did Poor Relief Supplement Wages before Speenhamland? (in progress)."
 
     Research Experience:
-      - company: London School of Economics and Political Science
-        position: Research Assistant to Melanie Meng Xue
-        location: London, United Kingdom
+      - company: "British Industrialization and Cultural Change: Evidence from the Use of Proverbs"
+        position: Research Assistant
         start_date: 2023-08
         end_date: present
         highlights:
-          - Research on British industrialization and cultural change using historical proverbs and printed texts.
-          - Computational text analysis and regional panel analysis.
+          - "Melanie Meng Xue (LSE), Elliott Ash (ETH Zurich)."
 
-    Teaching Experience:
-      - company: London School of Economics and Political Science
-        position: Graduate Teaching — MY464 Critical Data Literacy for Media and Communications
-        location: London, United Kingdom
+    Teaching and Advising Experience:
+      - company: Department of Economic History, LSE
+        position: Departmental Writing Advisor
         start_date: 2026-10
         end_date: present
       - company: London School of Economics and Political Science
-        position: Graduate Teaching Assistant — EH238 The Origins of Growth
-        location: London, United Kingdom
+        position: Graduate Teaching Assistant
         start_date: 2025-10
-        end_date: 2026-05
-
-    Presentations:
-      - bullet: "Poster presentation, Economic History Society Annual Conference (April 2026)."
-      - bullet: "Paper presentation, ESTER Workshop (November 2025)."
+        end_date: present
+        highlights:
+          - "MY464: Critical Data Literacy for Media and Communications (2026–2027)."
+          - "EH238: The Origins of Growth (2025–2026)."
 
     Skills:
-      - label: Programming and software
-        details: Stata, Python, R, ArcGIS, LaTeX
+      - label: Software
+        details: Python, Stata, LaTeX, R, ArcGIS
 
     Languages:
-      - label: Mandarin
-        details: Native
-      - label: English
-        details: Proficient
+      - label: Languages
+        details: Chinese, English
