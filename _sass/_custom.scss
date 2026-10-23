@@ -188,6 +188,8 @@ footer.sticky-bottom .container {
   font-weight: 500;
 }
 .academic-cv .cv-date {
+  justify-self: end;
+  display: block;
   color: var(--global-text-color-light);
   font-size: 0.86rem;
   line-height: 1.55;
@@ -228,6 +230,7 @@ footer.sticky-bottom .container {
     margin-bottom: 0.9rem;
   }
   .academic-cv .cv-date {
+    justify-self: start;
     text-align: left;
     font-size: 0.82rem;
   }

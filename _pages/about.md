@@ -19,6 +19,4 @@ My broader research interests lie in economic history, particularly in how indiv
 
 My PhD dissertation examines poor relief and private charity in England between 1600 and 1786. It asks why parish poor relief expanded over the long run; how recipients and forms of assistance were selected, including the role of deservingness; and how private philanthropy and publicly financed relief interacted. I also investigate how local governance and authority shaped these decisions.
 
-You can find further information about my background in my [CV]({{ '/cv/' | relative_url }}).
-
-J.Shi42 [at] lse [dot] ac [dot] uk
+J [dot] Shi42 [at] lse [dot] ac [dot] uk
