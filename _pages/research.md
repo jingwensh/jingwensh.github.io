@@ -7,7 +7,7 @@ nav_order: 1
 description:
 ---
 
-My research draws on annual poor-relief expenditure data from **312 parishes across 42 English counties**, combining newly collected archival records with the parish series assembled by [Brodie Waddell (2021)](https://doi.org/10.1093/pastj/gtaa027). I have also digitised **approximately 160,000 individual disbursement entries** from parish accounts.
+My research draws on annual poor-relief expenditure data from **312 parishes across 42 English counties**, combining newly collected archival records with the parish series assembled by [Brodie Waddell (2021)](https://doi.org/10.1093/pastj/gtaa027). I have also digitised **approximately 167k individual disbursement entries** from parish accounts.
 
 ## Why Did Poor Relief Expand? Re-Examining the Growth of Parish Relief in England, 1600–1786
 
