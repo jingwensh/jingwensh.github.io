@@ -39,24 +39,6 @@ description:
   </section>
 
   <section class="cv-section">
-    <h2>Papers in Progress</h2>
-
-    <div class="cv-entry cv-entry--paper">
-      <div class="cv-entry-main">
-        <p class="cv-primary cv-paper-title">Why Did Poor Relief Expand? Re-Examining the Growth of Parish Relief in England, 1600–1786</p>
-      </div>
-      <span class="cv-date">In progress</span>
-    </div>
-
-    <div class="cv-entry cv-entry--paper">
-      <div class="cv-entry-main">
-        <p class="cv-primary cv-paper-title">Did Poor Relief Supplement Wages before Speenhamland?</p>
-      </div>
-      <span class="cv-date">In progress</span>
-    </div>
-  </section>
-
-  <section class="cv-section">
     <h2>Research Experience</h2>
 
     <div class="cv-entry">
