@@ -19,7 +19,7 @@ My research draws on annual poor-relief expenditure data from **312 parishes acr
 
   <section class="research-entry">
     <h2>Did Poor Relief Subsidise Wages before Speenhamland?</h2>
-    <p><a href="https://doi.org/10.1017/CBO9780511528590">Boyer’s (1990)</a> economic interpretation of Speenhamland-era relief highlights farmers’ incentives to maintain a seasonal workforce, raising the possibility that similar wage-subsidy arrangements existed earlier. Because parish accounts rarely identify wage supplements directly, I develop an indirect empirical test using differences in relief responses to wheat-price shocks across wage conditions.</p>
+    <p><a href="https://doi.org/10.1017/CBO9780511528590">Boyer’s (1990)</a> model of Speenhamland-era relief links parish support to farmers’ incentives to retain a seasonal workforce, suggesting that similar wage-subsidy arrangements may have existed earlier. Because parish accounts rarely identify wage supplements directly, I develop an indirect empirical test using differences in relief responses to wheat-price shocks across wage conditions.</p>
   </section>
 
   <section class="research-entry">
