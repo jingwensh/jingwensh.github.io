@@ -102,6 +102,12 @@ h6,
   color: var(--global-theme-color);
 }
 
+/* Keep navigation labels the same width on every page: the core theme
+   makes the active label bolder, shifting this right-aligned menu. */
+.navbar.navbar-light .navbar-nav .nav-item.active > .nav-link {
+  font-weight: 500;
+}
+
 a {
   text-underline-offset: 2px;
 }
