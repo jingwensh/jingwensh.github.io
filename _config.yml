@@ -10,9 +10,7 @@ contact_note: Academic correspondence is welcome by email.
 description: >
   Academic website of Jingwen Shi, PhD student in Economic History at the
   London School of Economics and Political Science.
-footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+footer_text: ""
 
 keywords: Jingwen Shi, economic history, parish poor relief, charity, labour markets, early modern England
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
@@ -103,7 +101,7 @@ posts_in_search: true
 bib_search: true
 
 # Dimensions
-max_width: 930px
+max_width: 880px
 
 # -----------------------------------------------------------------------------
 # Open Graph & Schema.org
@@ -546,7 +544,7 @@ third_party_libraries:
     version: "5.5.0"
   google_fonts:
     url:
-      fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
+      fonts: "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600&display=swap"
   highlightjs:
     integrity:
       css:
