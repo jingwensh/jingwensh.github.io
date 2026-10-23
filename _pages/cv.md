@@ -11,7 +11,7 @@ description:
 
   <section class="cv-section">
     <h2>Education</h2>
-    <p><strong>MPhil/PhD in Economic History</strong>, London School of Economics and Political Science (since 2024).</p>
+    <p><strong>MPhil/PhD in Economic History</strong>, London School of Economics and Political Science (since 2024).<br>LSE PhD Studentship (2024–2028).</p>
     <p><strong>MSc in Economic History (Research)</strong>, London School of Economics and Political Science (2023–2024).</p>
     <p><strong>BSc in Economics</strong>, Shanghai Jiao Tong University (2019–2023). Minors in History and Finance.</p>
   </section>
@@ -32,12 +32,6 @@ description:
     <p><strong>Writing Advisor</strong>, Department of Economic History, LSE (2026–2027).</p>
     <p><strong>Graduate Teaching Assistant</strong>, MY464: Critical Data Literacy for Media and Communications, LSE (2026–2027).</p>
     <p><strong>Graduate Teaching Assistant</strong>, EH238: The Origins of Growth, LSE (2025–2026).</p>
-  </section>
-
-  <section class="cv-section">
-    <h2>Awards and Scholarships</h2>
-    <p><strong>LSE PhD Studentship</strong> (2024–2028).</p>
-    <p><strong>FORESIGHT-Sequoia Talent Development Fund Scholarship</strong>, Shanghai Jiao Tong University (2021–2022).</p>
   </section>
 
   <section class="cv-section">
