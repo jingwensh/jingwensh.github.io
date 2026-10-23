@@ -19,4 +19,4 @@ My research interests lie at the intersection of economic history, welfare, and 
 
 My PhD dissertation examines the evolution of poor relief and private charity in England, focusing on 1600–1786. It asks why England developed a locally administered, publicly financed system of poor relief that expanded over more than 200 years; how the allocation of assistance became increasingly selective in recipients and purposes as provision grew; and how public relief and private charity interacted over time.
 
-J [dot] Shi42 [at] lse [dot] ac [dot] uk
+Email: J [dot] Shi42 [at] lse [dot] ac [dot] uk
