@@ -24,14 +24,18 @@ description:
 
   <section class="cv-section">
     <h2>Research Experience</h2>
-    <p><strong>Research Assistant to Dr Melanie Meng Xue</strong>, London School of Economics and Political Science (since 2023).</p>
+    <p><strong>Research Assistant</strong> (since 2023).</p>
+    <p class="cv-subline"><em>British Industrialization and Cultural Change: Evidence from the Use of Proverbs</em></p>
+    <p class="cv-subline cv-authors">Melanie Meng Xue (LSE), Elliott Ash (ETH Zurich).</p>
   </section>
 
   <section class="cv-section">
-    <h2>Teaching and Academic Service</h2>
-    <p><strong>Writing Advisor</strong>, Department of Economic History, LSE (2026–2027).</p>
-    <p><strong>Graduate Teaching Assistant</strong>, MY464: Critical Data Literacy for Media and Communications, LSE (2026–2027).</p>
-    <p><strong>Graduate Teaching Assistant</strong>, EH238: The Origins of Growth, LSE (2025–2026).</p>
+    <h2>Teaching and Advising Experience</h2>
+    <p><strong>Departmental Writing Advisor</strong> (2026–2027).</p>
+    <p class="cv-subline">Department of Economic History, LSE.</p>
+    <p class="cv-role"><strong>Graduate Teaching Assistant</strong></p>
+    <p class="cv-subline">MY464: Critical Data Literacy for Media and Communications (2026–2027).</p>
+    <p class="cv-subline">EH238: The Origins of Growth (2025–2026).</p>
   </section>
 
   <section class="cv-section">
