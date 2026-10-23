@@ -46,7 +46,12 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-h1, h2, h3, h4, h5, h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
 .post .post-header .post-title,
 .post-header .post-title,
 .navbar-brand {
@@ -63,13 +68,25 @@ h1, h2, h3, h4, h5, h6,
   margin-bottom: 1rem;
 }
 
-.post article h1 { font-size: 1.65rem; }
-.post article h2 { font-size: 1.2rem; }
-.post article h3 { font-size: 1.03rem; }
+.post article h1 {
+  font-size: 1.65rem;
+}
+.post article h2 {
+  font-size: 1.2rem;
+}
+.post article h3 {
+  font-size: 1.03rem;
+}
 
-.post article p { line-height: 1.76; }
-.post .post-header { margin-bottom: 1.25rem; }
-.post .post-header .post-description:empty { display: none; }
+.post article p {
+  line-height: 1.76;
+}
+.post .post-header {
+  margin-bottom: 1.25rem;
+}
+.post .post-header .post-description:empty {
+  display: none;
+}
 
 .navbar.navbar-light .navbar-nav .nav-item .nav-link {
   font-family: "DM Sans", "Segoe UI", sans-serif;
@@ -85,9 +102,15 @@ h1, h2, h3, h4, h5, h6,
   color: var(--global-theme-color);
 }
 
-a { text-underline-offset: 2px; }
-a:hover { color: var(--global-hover-color); }
-::selection { background: var(--site-soft-accent); color: var(--global-text-color); }
+a {
+  text-underline-offset: 2px;
+}
+a:hover {
+  color: var(--global-hover-color);
+}
+::selection {
+  background: var(--site-soft-accent); color: var(--global-text-color);
+}
 
 footer.fixed-bottom,
 footer.sticky-bottom {
@@ -146,7 +169,6 @@ footer.sticky-bottom .container {
     font-size: 0.91rem;
   }
 }
-
 
 /* Quiet hierarchy for grouped teaching courses and RA paper credits. */
 .academic-cv .cv-subline {
