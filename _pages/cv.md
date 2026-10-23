@@ -8,40 +8,97 @@ description:
 ---
 
 <div class="academic-cv">
-
   <section class="cv-section">
     <h2>Education</h2>
-    <p><strong>MPhil/PhD in Economic History</strong>, London School of Economics and Political Science (since 2024).<br>LSE PhD Studentship (2024–2028).</p>
-    <p><strong>MSc in Economic History (Research)</strong>, London School of Economics and Political Science (2023–2024).</p>
-    <p><strong>BSc in Economics</strong>, Shanghai Jiao Tong University (2019–2023). Minors in History and Finance.</p>
+
+    <div class="cv-entry">
+      <div class="cv-entry-main">
+        <p class="cv-primary">MPhil/PhD in Economic History</p>
+        <p class="cv-secondary">London School of Economics and Political Science</p>
+        <p class="cv-detail">LSE PhD Studentship (2024–2028)</p>
+      </div>
+      <span class="cv-date">Sep 2024 – Present</span>
+    </div>
+
+    <div class="cv-entry">
+      <div class="cv-entry-main">
+        <p class="cv-primary">MSc in Economic History (Research)</p>
+        <p class="cv-secondary">London School of Economics and Political Science</p>
+      </div>
+      <span class="cv-date">Sep 2023 – Sep 2024</span>
+    </div>
+
+    <div class="cv-entry">
+      <div class="cv-entry-main">
+        <p class="cv-primary">BSc in Economics</p>
+        <p class="cv-secondary">Shanghai Jiao Tong University</p>
+        <p class="cv-detail">Minors in History and Finance</p>
+      </div>
+      <span class="cv-date">Sep 2019 – Jun 2023</span>
+    </div>
   </section>
 
   <section class="cv-section">
     <h2>Papers in Progress</h2>
-    <p><em>Why Did Poor Relief Expand? Re-Examining the Growth of Parish Relief in England, 1600–1786</em> (in progress).</p>
-    <p><em>Did Poor Relief Supplement Wages before Speenhamland?</em> (in progress).</p>
+
+    <div class="cv-entry cv-entry--paper">
+      <div class="cv-entry-main">
+        <p class="cv-primary cv-paper-title">Why Did Poor Relief Expand? Re-Examining the Growth of Parish Relief in England, 1600–1786</p>
+      </div>
+      <span class="cv-date">In progress</span>
+    </div>
+
+    <div class="cv-entry cv-entry--paper">
+      <div class="cv-entry-main">
+        <p class="cv-primary cv-paper-title">Did Poor Relief Supplement Wages before Speenhamland?</p>
+      </div>
+      <span class="cv-date">In progress</span>
+    </div>
   </section>
 
   <section class="cv-section">
     <h2>Research Experience</h2>
-    <p><strong>Research Assistant</strong> (since 2023).</p>
-    <p class="cv-subline"><em>British Industrialization and Cultural Change: Evidence from the Use of Proverbs</em></p>
-    <p class="cv-subline cv-authors">Melanie Meng Xue (LSE), Elliott Ash (ETH Zurich).</p>
+
+    <div class="cv-entry">
+      <div class="cv-entry-main">
+        <p class="cv-primary">Research Assistant</p>
+        <p class="cv-secondary cv-paper-title">British Industrialization and Cultural Change: Evidence from the Use of Proverbs</p>
+        <p class="cv-detail">Melanie Meng Xue (LSE) and Elliott Ash (ETH Zurich)</p>
+      </div>
+      <span class="cv-date">Aug 2023 – Present</span>
+    </div>
   </section>
 
   <section class="cv-section">
     <h2>Teaching and Advising Experience</h2>
-    <p><strong>Departmental Writing Advisor</strong> (2026–2027).</p>
-    <p class="cv-subline">Department of Economic History, LSE.</p>
-    <p class="cv-role"><strong>Graduate Teaching Assistant</strong></p>
-    <p class="cv-subline">MY464: Critical Data Literacy for Media and Communications (2026–2027).</p>
-    <p class="cv-subline">EH238: The Origins of Growth (2025–2026).</p>
+
+    <div class="cv-entry">
+      <div class="cv-entry-main">
+        <p class="cv-primary">Departmental Writing Advisor</p>
+        <p class="cv-secondary">Department of Economic History, LSE</p>
+      </div>
+      <span class="cv-date">Oct 2026 – Present</span>
+    </div>
+
+    <div class="cv-entry cv-entry--grouped">
+      <div class="cv-entry-main">
+        <p class="cv-primary">Graduate Teaching Assistant</p>
+        <p class="cv-secondary">London School of Economics and Political Science</p>
+      </div>
+    </div>
+    <div class="cv-entry cv-entry--course">
+      <p class="cv-course-name">MY464: Critical Data Literacy for Media and Communications</p>
+      <span class="cv-date">Oct 2026 – Present</span>
+    </div>
+    <div class="cv-entry cv-entry--course">
+      <p class="cv-course-name">EH238: The Origins of Growth</p>
+      <span class="cv-date">Oct 2025 – May 2026</span>
+    </div>
   </section>
 
   <section class="cv-section">
     <h2>Skills and Languages</h2>
-    <p><strong>Software:</strong> Python, Stata, LaTeX, R, ArcGIS.</p>
-    <p><strong>Languages:</strong> Chinese, English.</p>
+    <p class="cv-skill-line"><strong>Software</strong> Python, Stata, LaTeX, R, ArcGIS</p>
+    <p class="cv-skill-line"><strong>Languages</strong> Chinese, English</p>
   </section>
-
 </div>
