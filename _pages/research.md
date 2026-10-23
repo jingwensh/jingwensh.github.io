@@ -18,7 +18,7 @@ My research draws on annual poor-relief expenditure data from **312 parishes acr
   </section>
 
   <section class="research-entry">
-    <h2>Did Poor Relief Supplement Wages before Speenhamland?</h2>
+    <h2>Did Poor Relief Subsidise Wages before Speenhamland?</h2>
     <p>Did parish poor relief function partly as wage supplementation before Speenhamland? This paper asks whether relief responded differently to food-price shocks when wages were weak, distinguishing potential wage support from more general responses to subsistence pressure.</p>
   </section>
 
