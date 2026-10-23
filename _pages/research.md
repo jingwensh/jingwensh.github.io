@@ -19,7 +19,7 @@ My research draws on annual poor-relief expenditure data from **312 parishes acr
 
   <section class="research-entry">
     <h2>Did Poor Relief Subsidise Wages before Speenhamland?</h2>
-    <p><a href="https://doi.org/10.1017/CBO9780511528590">Boyer’s (1990)</a> model of Speenhamland-era relief links parish support to farmers’ incentives to retain a seasonal workforce, suggesting that similar wage-subsidy arrangements may have existed earlier. Because parish accounts rarely identify wage subsidies directly, I develop an indirect empirical test using differences in relief responses to wheat-price shocks across wage conditions.</p>
+    <p>Economic interpretations of the Old Poor Law emphasise labour-market incentives (<a href="https://www.cambridge.org/core/journals/journal-of-economic-history/article/abs/poor-law-report-reexamined/5AE530C1CA75D48AFA1919DEDD5133F2">Blaug, 1964</a>; <a href="https://doi.org/10.1017/CBO9780511528590">Boyer, 1990</a>), while historical accounts suggest that wage-subsidy arrangements may have existed before Speenhamland (<a href="https://manchesteruniversitypress.co.uk/9780719049408/">King, 2000</a>). Because parish accounts rarely identify such payments directly, I develop an indirect empirical test using relief responses to wheat-price shocks across wage conditions.</p>
   </section>
 
   <section class="research-entry">
