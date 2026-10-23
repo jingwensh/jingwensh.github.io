@@ -2,7 +2,6 @@
 layout: about
 title: About
 permalink: /
-subtitle: PhD student in Economic History at the London School of Economics and Political Science
 profile: false
 selected_papers: false
 social: true
@@ -14,10 +13,10 @@ latest_posts:
   enabled: false
 ---
 
-I am a PhD student in **Economic History** at the **London School of Economics and Political Science (LSE)**, supervised by **Patrick Wallis** and **Melanie Meng Xue**.
+I am a PhD student in **Economic History** at the **London School of Economics and Political Science (LSE)**. I began my PhD in September 2024 and am supervised by [Prof. Patrick Wallis](https://www.lse.ac.uk/people/patrick-wallis) and [Dr Melanie Meng Xue](https://www.melaniexue.net/).
 
-My research interests broadly lie in economic history and long-run economic and social change. I am interested in how historical evidence can help us understand economic behaviour, institutions, and their evolution over time.
+My broader research interests lie in economic history, particularly in how individual motivations and behaviour, public decision-making, and institutions shape long-run economic and social change.
 
-My current projects examine poor relief, private charity, and labour markets in early modern England.
+My PhD dissertation examines poor relief and private charity in England between 1600 and 1786. It asks why parish poor relief expanded over the long run; how recipients and forms of assistance were selected, including the role of deservingness; and how private philanthropy and publicly financed relief interacted. I also investigate how local governance and authority shaped these decisions.
 
-You can find more information about my [current research]({{ '/research/' | relative_url }}), [teaching]({{ '/teaching/' | relative_url }}), and [academic CV]({{ '/cv/' | relative_url }}).
+You can find more information about my [research]({{ '/research/' | relative_url }}), [teaching]({{ '/teaching/' | relative_url }}), and [academic CV]({{ '/cv/' | relative_url }}).
