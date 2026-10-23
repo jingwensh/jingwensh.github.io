@@ -14,7 +14,7 @@ My research draws on annual poor-relief expenditure data from **312 parishes acr
 <div class="research-list">
   <section class="research-entry">
     <h2>Why Did Poor Relief Expand?</h2>
-    <p>How did England develop such an extensive system of publicly financed poor relief, and what drove its long-run growth? The paper asks how temporary subsistence pressures, alongside local fiscal responses, contributed to the evolution of relief provision.</p>
+    <p>Temporary subsistence shocks increased parish relief spending, but their effects alone cannot explain its sustained growth. Using parish expenditure and financial accounts, I examine how local fiscal adjustment could translate short-run pressures into longer-lasting changes in relief provision.</p>
   </section>
 
   <section class="research-entry">
@@ -24,6 +24,6 @@ My research draws on annual poor-relief expenditure data from **312 parishes acr
 
   <section class="research-entry">
     <h2>Selective Welfare in Early Modern England: Poor Relief, Charity, and Regional Divergence, 1600–1786</h2>
-    <p>How did assistance become more selective as welfare provision expanded? This paper traces changes in <strong>who received support</strong> and <strong>the purposes for which it was provided</strong>, comparing the evolution of public poor relief and private charity across regions.</p>
+    <p>Preliminary evidence suggests that private charity increasingly targeted particular groups, while parish poor relief shifted towards more purpose-defined payments. I trace these distinct patterns of selectivity over time and across regions using parish disbursement records and charitable endowments.</p>
   </section>
 </div>
