@@ -146,3 +146,17 @@ footer.sticky-bottom .container {
     font-size: 0.91rem;
   }
 }
+
+
+/* Quiet hierarchy for grouped teaching courses and RA paper credits. */
+.academic-cv .cv-subline {
+  margin-left: 1rem !important;
+  font-size: 0.9rem !important;
+  color: var(--global-text-color-light) !important;
+}
+.academic-cv .cv-role {
+  margin-top: 0.75rem !important;
+}
+.academic-cv .cv-authors {
+  font-size: 0.84rem !important;
+}
