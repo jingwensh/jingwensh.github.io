@@ -101,63 +101,48 @@ footer.sticky-bottom .container {
   letter-spacing: 0.01em;
 }
 
-/* Compact, editorial CV layout without template cards or oversized headings. */
-.academic-cv { max-width: 810px; margin: 0 auto 3rem; }
+/* Simple, single-column academic CV: no cards, columns, timelines or index. */
+.academic-cv {
+  max-width: 790px;
+  margin: 0 0 2.5rem;
+  padding: 0;
+}
 .academic-cv .cv-section {
-  border-top: 1px solid var(--site-border-color);
-  margin: 0 0 1.65rem;
-  padding-top: 0.85rem;
+  border: 0;
+  background: transparent;
+  margin: 0 0 1.35rem;
+  padding: 0;
 }
 .academic-cv .cv-section h2 {
   font-family: "DM Sans", "Segoe UI", sans-serif;
-  font-size: 0.91rem;
-  font-weight: 700;
-  letter-spacing: 0.055em;
-  text-transform: uppercase;
   color: var(--site-heading-color);
-  margin: 0 0 0.8rem;
+  font-size: 0.98rem;
+  font-weight: 650;
+  letter-spacing: -0.015em;
+  line-height: 1.4;
+  text-transform: none;
+  margin: 0 0 0.38rem;
 }
-.academic-cv .cv-entry {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  align-items: start;
-  column-gap: 1.2rem;
-  margin-bottom: 0.95rem;
-}
-.academic-cv .cv-entry p,
-.academic-cv .cv-section > p { margin: 0; }
-.academic-cv .cv-entry-title {
+.academic-cv .cv-section p,
+.post article .academic-cv .cv-section p {
   color: var(--global-text-color);
-  font-family: "DM Sans", "Segoe UI", sans-serif;
+  font-size: 0.93rem;
+  line-height: 1.55;
+  margin: 0 0 0.34rem;
+}
+.academic-cv .cv-section strong {
   font-weight: 600;
-  font-size: 0.94rem;
-  line-height: 1.45;
 }
-.academic-cv .cv-entry-org {
-  color: var(--global-text-color);
-  font-size: 0.89rem;
-  line-height: 1.5;
-  margin-top: 0.09rem !important;
+.academic-cv .cv-section em {
+  font-style: italic;
 }
-.academic-cv .cv-entry-date {
-  color: var(--global-text-color-light);
-  font-size: 0.85rem;
-  font-variant-numeric: tabular-nums;
-  white-space: nowrap;
-  text-align: right;
-  line-height: 1.5;
+.post:has(.academic-cv) .post-header .post-title {
+  font-size: 1.65rem;
+  margin-bottom: 0.85rem;
 }
-.academic-cv .cv-entry-detail,
-.academic-cv .cv-section > p {
-  font-size: 0.87rem;
-  color: var(--global-text-color-light);
-  line-height: 1.56;
-  margin-top: 0.17rem !important;
-}
-.academic-cv .cv-section > p + p { margin-top: 0.42rem !important; }
-
 @media (max-width: 600px) {
-  .post .post-header .post-title { font-size: 1.65rem; }
-  .academic-cv .cv-entry { grid-template-columns: 1fr; row-gap: 0.13rem; }
-  .academic-cv .cv-entry-date { text-align: left; }
+  .academic-cv .cv-section p,
+  .post article .academic-cv .cv-section p {
+    font-size: 0.91rem;
+  }
 }
