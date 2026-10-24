@@ -13,11 +13,14 @@ latest_posts:
   enabled: false
 ---
 
-<div class="home-portrait">
-  <img src="{{ '/assets/img/jingwen-profile.webp' | relative_url }}" alt="Portrait of Jingwen Shi" width="300" height="300" decoding="async">
+<div class="home-intro">
+  <div class="home-portrait">
+    <img src="{{ '/assets/img/jingwen-profile-hq.webp' | relative_url }}" alt="Portrait of Jingwen Shi" width="400" height="400" decoding="async">
+  </div>
+  <div class="home-intro-text">
+    <p>I am a PhD student in <strong>Economic History</strong> at the <strong>London School of Economics and Political Science (LSE)</strong>. I began my PhD in September 2024 and am supervised by <a href="https://www.lse.ac.uk/people/patrick-wallis">Prof. Patrick Wallis</a> and <a href="https://www.melaniexue.net/">Dr Melanie Meng Xue</a>.</p>
+  </div>
 </div>
-
-I am a PhD student in **Economic History** at the **London School of Economics and Political Science (LSE)**. I began my PhD in September 2024 and am supervised by [Prof. Patrick Wallis](https://www.lse.ac.uk/people/patrick-wallis) and [Dr Melanie Meng Xue](https://www.melaniexue.net/).
 
 My research interests lie at the intersection of economic history, welfare, and public economics. I am particularly interested in public decision-making, individual motivations and behaviour (including altruism), institutions, and their long-term evolution.
 
