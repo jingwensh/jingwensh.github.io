@@ -16,10 +16,14 @@ latest_posts:
 
 <div class="about-profile-layout">
   <aside class="about-profile-sidebar">
-    <img class="about-profile-photo" src="{{ '/assets/img/jingwen-profile.webp' | relative_url }}" width="722" height="722" alt="Portrait of Jingwen Shi" decoding="async">
+    <picture class="about-profile-picture">
+      <source srcset="{{ '/assets/img/jingwen-profile-hq.avif' | relative_url }}" type="image/avif">
+      <img class="about-profile-photo" src="{{ '/assets/img/jingwen-profile.webp' | relative_url }}" width="400" height="400" alt="Portrait of Jingwen Shi" decoding="async" fetchpriority="high">
+    </picture>
     <div class="about-profile-identity">
       <p class="about-profile-name">Jingwen Shi</p>
-      <p class="about-profile-email"><span class="about-profile-label">Email:</span> J [dot] Shi42 [at]<br>lse [dot] ac [dot] uk</p>
+      <p class="about-profile-label">Email</p>
+      <p class="about-profile-email">J.Shi42 [at] lse.ac.uk</p>
     </div>
   </aside>
   <div class="about-profile-main">
