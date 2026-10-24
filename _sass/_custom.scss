@@ -1,6 +1,6 @@
 /* Site-specific typography and palette; core theme remains updateable. */
 :root {
-  --global-bg-color: #f2f3f2;
+  --global-bg-color: #eaedeb;
   --global-text-color: #283c3a;
   --global-text-color-light: #667b75;
   --global-theme-color: #1c665f;
@@ -279,7 +279,7 @@ footer.sticky-bottom .container {
 .post:has(.about-profile-layout) article { padding-top: 0.1rem; }
 .about-profile-layout {
   display: grid;
-  grid-template-columns: 196px minmax(0, 1fr);
+  grid-template-columns: 204px minmax(0, 1fr);
   column-gap: clamp(3.1rem, 6.5vw, 4.1rem);
   align-items: start;
   width: 100%;
@@ -288,13 +288,13 @@ footer.sticky-bottom .container {
    shift the portrait rail 16px left and the body text 16px right. */
 @media (min-width: 731px) {
   .about-profile-layout {
-    width: calc(100% + 32px);
-    margin-left: -16px;
-    column-gap: calc(clamp(3.1rem, 6.5vw, 4.1rem) + 32px);
+    width: calc(100% + 48px);
+    margin-left: -22px;
+    column-gap: calc(clamp(3.1rem, 6.5vw, 4.1rem) + 38px);
   }
 }
 .about-profile-sidebar {
-  width: 196px;
+  width: 204px;
   min-width: 0;
   text-align: left;
 }
@@ -310,7 +310,7 @@ footer.sticky-bottom .container {
 .about-profile-identity { margin-top: 1rem; }
 .about-profile-name {
   font-family: "DM Sans", "Segoe UI", sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.78rem;
   font-weight: 650;
   line-height: 1.36;
   color: var(--site-heading-color);
@@ -326,11 +326,12 @@ footer.sticky-bottom .container {
   margin: 0 0 0.12rem !important;
 }
 .about-profile-email {
-  font-size: 0.85rem;
+  font-size: 0.82rem;
   line-height: 1.55 !important;
   color: var(--global-text-color);
   margin: 0 !important;
-  overflow-wrap: anywhere;
+  letter-spacing: -0.015em;
+  white-space: nowrap;
 }
 .about-profile-main { min-width: 0; }
 .post article .about-profile-main p {
@@ -343,7 +344,11 @@ footer.sticky-bottom .container {
     column-gap: 2rem;
   }
   .about-profile-sidebar { width: 160px; }
-  .about-profile-email { font-size: 0.79rem; }
+  .about-profile-email {
+    font-size: 0.79rem;
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
 }
 @media (max-width: 560px) {
   .about-profile-layout {
