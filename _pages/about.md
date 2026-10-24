@@ -22,7 +22,7 @@ latest_posts:
     <div class="about-profile-identity">
       <p class="about-profile-name">Jingwen Shi</p>
       <p class="about-profile-label">Email</p>
-      <p class="about-profile-email">J.Shi42 [at] lse.ac.uk</p>
+      <p class="about-profile-email">J [dot] Shi42 [at]<br>lse [dot] ac [dot] uk</p>
     </div>
   </aside>
   <div class="about-profile-main">
