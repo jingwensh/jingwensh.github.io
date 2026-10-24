@@ -274,27 +274,31 @@ footer.sticky-bottom .container {
   margin: 0;
 }
 
-/* Academic homepage: a slightly larger portrait and wider identity rail.
-   Give the obfuscated address enough width to remain on one desktop line. */
+/* Academic homepage: portrait and identity rail, with clear text separation. */
 .post:has(.about-profile-layout) .post-header { display: none; }
 .post:has(.about-profile-layout) article { padding-top: 0.1rem; }
 .about-profile-layout {
   display: grid;
-  grid-template-columns: 260px minmax(0, 1fr);
-  column-gap: 3.1rem;
+  grid-template-columns: 204px minmax(0, 1fr);
+  column-gap: clamp(3.1rem, 6.5vw, 4.1rem);
   align-items: start;
   width: 100%;
 }
+/* Widen the desktop composition without narrowing the reading column:
+   shift the portrait rail 16px left and the body text 16px right. */
+@media (min-width: 731px) {
+  .about-profile-layout {
+    width: calc(100% + 48px);
+    margin-left: -22px;
+    column-gap: calc(clamp(3.1rem, 6.5vw, 4.1rem) + 38px);
+  }
+}
 .about-profile-sidebar {
-  width: 260px;
+  width: 204px;
   min-width: 0;
   text-align: left;
 }
-.about-profile-picture {
-  display: block;
-  width: 220px;
-  max-width: 100%;
-}
+.about-profile-picture { display: block; width: 100%; }
 .about-profile-photo {
   display: block;
   width: 100%;
@@ -322,7 +326,7 @@ footer.sticky-bottom .container {
   margin: 0 0 0.12rem !important;
 }
 .about-profile-email {
-  font-size: 0.79rem;
+  font-size: 0.82rem;
   line-height: 1.55 !important;
   color: var(--global-text-color);
   margin: 0 !important;
@@ -334,23 +338,12 @@ footer.sticky-bottom .container {
   margin: 0 0 1.14rem;
   line-height: 1.76;
 }
-/* On wide screens, grow the left rail rather than shrinking the reading column. */
-@media (min-width: 1000px) {
-  .about-profile-layout {
-    grid-template-columns: 296px minmax(0, 1fr);
-    width: calc(100% + 120px);
-    margin-left: -60px;
-    column-gap: 5rem;
-  }
-  .about-profile-sidebar { width: 296px; }
-}
 @media (max-width: 730px) {
   .about-profile-layout {
     grid-template-columns: 160px minmax(0, 1fr);
     column-gap: 2rem;
   }
   .about-profile-sidebar { width: 160px; }
-  .about-profile-picture { width: 160px; }
   .about-profile-email {
     font-size: 0.79rem;
     white-space: normal;
@@ -369,7 +362,6 @@ footer.sticky-bottom .container {
     align-items: center;
     width: 100%;
   }
-  .about-profile-picture { width: 132px; }
   .about-profile-identity { margin-top: 0; }
   .about-profile-name { margin-bottom: 0.62rem !important; }
   .about-profile-email { font-size: 0.82rem; }
