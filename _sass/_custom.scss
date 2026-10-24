@@ -274,43 +274,55 @@ footer.sticky-bottom .container {
   margin: 0;
 }
 
-/* Academic homepage: quiet left identity rail and clearly separated text column. */
+/* Academic homepage: portrait and identity rail, with clear text separation. */
 .post:has(.about-profile-layout) .post-header { display: none; }
 .post:has(.about-profile-layout) article { padding-top: 0.1rem; }
 .about-profile-layout {
   display: grid;
-  grid-template-columns: 176px minmax(0, 1fr);
-  column-gap: clamp(3.2rem, 7.5vw, 5.1rem);
+  grid-template-columns: 196px minmax(0, 1fr);
+  column-gap: clamp(3.1rem, 6.5vw, 4.1rem);
   align-items: start;
   width: 100%;
 }
 .about-profile-sidebar {
-  width: 176px;
+  width: 196px;
   min-width: 0;
   text-align: left;
 }
+.about-profile-picture { display: block; width: 100%; }
 .about-profile-photo {
   display: block;
   width: 100%;
   height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
   border-radius: 3px;
 }
-.about-profile-identity { margin-top: 0.85rem; }
+.about-profile-identity { margin-top: 1rem; }
 .about-profile-name {
   font-family: "DM Sans", "Segoe UI", sans-serif;
-  font-size: 1.07rem;
+  font-size: 1.18rem;
   font-weight: 650;
-  line-height: 1.35;
+  line-height: 1.36;
   color: var(--site-heading-color);
-  margin: 0 0 0.5rem !important;
+  letter-spacing: -0.015em;
+  margin: 0 0 0.82rem !important;
+}
+.about-profile-label {
+  display: block;
+  font-size: 0.73rem;
+  line-height: 1.45;
+  font-weight: 600;
+  color: var(--global-text-color-light);
+  margin: 0 0 0.12rem !important;
 }
 .about-profile-email {
-  font-size: 0.78rem;
+  font-size: 0.85rem;
   line-height: 1.55 !important;
-  color: var(--global-text-color-light);
+  color: var(--global-text-color);
   margin: 0 !important;
+  overflow-wrap: anywhere;
 }
-.about-profile-label { font-weight: 600; }
 .about-profile-main { min-width: 0; }
 .post article .about-profile-main p {
   margin: 0 0 1.14rem;
@@ -318,11 +330,11 @@ footer.sticky-bottom .container {
 }
 @media (max-width: 730px) {
   .about-profile-layout {
-    grid-template-columns: 145px minmax(0, 1fr);
+    grid-template-columns: 160px minmax(0, 1fr);
     column-gap: 2rem;
   }
-  .about-profile-sidebar { width: 145px; }
-  .about-profile-email { font-size: 0.74rem; }
+  .about-profile-sidebar { width: 160px; }
+  .about-profile-email { font-size: 0.79rem; }
 }
 @media (max-width: 560px) {
   .about-profile-layout {
@@ -331,12 +343,12 @@ footer.sticky-bottom .container {
   }
   .about-profile-sidebar {
     display: grid;
-    grid-template-columns: 125px minmax(0, 1fr);
+    grid-template-columns: 132px minmax(0, 1fr);
     column-gap: 1.1rem;
-    align-items: start;
+    align-items: center;
     width: 100%;
   }
   .about-profile-identity { margin-top: 0; }
-  .about-profile-name { margin-bottom: 0.45rem !important; }
-  .about-profile-email { font-size: 0.81rem; }
+  .about-profile-name { margin-bottom: 0.62rem !important; }
+  .about-profile-email { font-size: 0.82rem; }
 }
