@@ -273,3 +273,33 @@ footer.sticky-bottom .container {
   line-height: 1.68;
   margin: 0;
 }
+
+
+/* Academic portrait on the About page. */
+.home-portrait {
+  float: right;
+  width: 210px;
+  max-width: 34%;
+  margin: 0.15rem 0 1.15rem 1.8rem;
+}
+.home-portrait img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+@media (max-width: 520px) {
+  .home-portrait {
+    width: 175px;
+    max-width: 42%;
+    margin: 0.15rem 0 0.9rem 1.1rem;
+  }
+}
+@media (max-width: 380px) {
+  .home-portrait {
+    float: none;
+    width: 170px;
+    max-width: 100%;
+    margin: 0 0 1.25rem;
+  }
+}
