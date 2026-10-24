@@ -315,7 +315,14 @@ footer.sticky-bottom .container {
   line-height: 1.36;
   color: var(--site-heading-color);
   letter-spacing: -0.015em;
-  margin: 0 0 0.82rem !important;
+  margin: 0 0 0.08rem !important;
+}
+.about-profile-name-chinese {
+  font-size: 0.96rem;
+  font-weight: 400;
+  line-height: 1.55;
+  color: var(--global-text-color-light);
+  margin: 0 0 0.84rem !important;
 }
 .about-profile-label {
   display: block;
@@ -363,6 +370,7 @@ footer.sticky-bottom .container {
     width: 100%;
   }
   .about-profile-identity { margin-top: 0; }
-  .about-profile-name { margin-bottom: 0.62rem !important; }
+  .about-profile-name { margin-bottom: 0.08rem !important; }
+  .about-profile-name-chinese { margin-bottom: 0.58rem !important; }
   .about-profile-email { font-size: 0.82rem; }
 }

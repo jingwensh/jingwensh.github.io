@@ -21,6 +21,7 @@ latest_posts:
     </picture>
     <div class="about-profile-identity">
       <p class="about-profile-name">Jingwen Shi</p>
+      <p class="about-profile-name-chinese" lang="zh-Hans">「石静雯」</p>
       <p class="about-profile-label">Email</p>
       <p class="about-profile-email">J [dot] Shi42 [at] lse [dot] ac [dot] uk</p>
     </div>
