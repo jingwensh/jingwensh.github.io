@@ -284,6 +284,15 @@ footer.sticky-bottom .container {
   align-items: start;
   width: 100%;
 }
+/* Widen the desktop composition without narrowing the reading column:
+   shift the portrait rail 16px left and the body text 16px right. */
+@media (min-width: 731px) {
+  .about-profile-layout {
+    width: calc(100% + 32px);
+    margin-left: -16px;
+    column-gap: calc(clamp(3.1rem, 6.5vw, 4.1rem) + 32px);
+  }
+}
 .about-profile-sidebar {
   width: 196px;
   min-width: 0;
@@ -301,7 +310,7 @@ footer.sticky-bottom .container {
 .about-profile-identity { margin-top: 1rem; }
 .about-profile-name {
   font-family: "DM Sans", "Segoe UI", sans-serif;
-  font-size: 1.18rem;
+  font-size: 1.38rem;
   font-weight: 650;
   line-height: 1.36;
   color: var(--site-heading-color);
