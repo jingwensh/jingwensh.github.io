@@ -17,7 +17,6 @@ latest_posts:
 <div class="about-profile-layout">
   <aside class="about-profile-sidebar">
     <picture class="about-profile-picture">
-      <source srcset="{{ '/assets/img/jingwen-profile-hq.avif' | relative_url }}" type="image/avif">
       <img class="about-profile-photo" src="{{ '/assets/img/jingwen-profile.webp' | relative_url }}" width="400" height="400" alt="Portrait of Jingwen Shi" decoding="async" fetchpriority="high">
     </picture>
     <div class="about-profile-identity">
