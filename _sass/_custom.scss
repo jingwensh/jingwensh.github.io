@@ -275,31 +275,30 @@ footer.sticky-bottom .container {
 }
 
 
-/* Academic portrait on the About page. */
+/* Compact portrait beside the introductory bio, inspired by
+   the restrained portrait-to-text balance of Johann Ohler's site. */
 .home-portrait {
   float: right;
-  width: 210px;
-  max-width: 34%;
-  margin: 0.15rem 0 1.15rem 1.8rem;
+  width: 138px;
+  max-width: 24%;
+  margin: 0.1rem 0 0.8rem 1.3rem;
 }
 .home-portrait img {
   display: block;
   width: 100%;
   height: auto;
-  border-radius: 6px;
+  border-radius: 4px;
 }
 @media (max-width: 520px) {
   .home-portrait {
-    width: 175px;
-    max-width: 42%;
-    margin: 0.15rem 0 0.9rem 1.1rem;
+    width: 118px;
+    max-width: 34%;
+    margin: 0.1rem 0 0.65rem 0.95rem;
   }
 }
 @media (max-width: 380px) {
   .home-portrait {
-    float: none;
-    width: 170px;
-    max-width: 100%;
-    margin: 0 0 1.25rem;
+    width: 105px;
+    max-width: 33%;
   }
 }
