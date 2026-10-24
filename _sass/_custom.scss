@@ -357,12 +357,20 @@ footer.sticky-bottom .container {
   }
   .about-profile-sidebar {
     display: grid;
-    grid-template-columns: 132px minmax(0, 1fr);
-    column-gap: 1.1rem;
+    grid-template-columns: 100px minmax(0, 1fr);
+    column-gap: 1rem;
     align-items: center;
     width: 100%;
   }
+  .about-profile-picture { width: 100px; }
   .about-profile-identity { margin-top: 0; }
-  .about-profile-name { margin-bottom: 0.62rem !important; }
-  .about-profile-email { font-size: 0.82rem; }
+  .about-profile-name {
+    font-size: 1.55rem;
+    margin-bottom: 0.35rem !important;
+  }
+  .about-profile-label { display: none; }
+  .about-profile-email {
+    font-size: 0.82rem;
+    line-height: 1.48 !important;
+  }
 }
