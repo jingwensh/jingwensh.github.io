@@ -274,28 +274,69 @@ footer.sticky-bottom .container {
   margin: 0;
 }
 
-/* Small left-aligned portrait with text beside it, consistent with a minimal academic homepage. */
-.home-intro {
+/* Academic homepage: quiet left identity rail and clearly separated text column. */
+.post:has(.about-profile-layout) .post-header { display: none; }
+.post:has(.about-profile-layout) article { padding-top: 0.1rem; }
+.about-profile-layout {
   display: grid;
-  grid-template-columns: 148px minmax(0, 1fr);
-  gap: 1.6rem;
+  grid-template-columns: 176px minmax(0, 1fr);
+  column-gap: clamp(3.2rem, 7.5vw, 5.1rem);
   align-items: start;
-  margin-bottom: 1.2rem;
+  width: 100%;
 }
-.home-portrait { width: 100%; }
-.home-portrait img {
+.about-profile-sidebar {
+  width: 176px;
+  min-width: 0;
+  text-align: left;
+}
+.about-profile-photo {
   display: block;
   width: 100%;
   height: auto;
   border-radius: 3px;
 }
-.home-intro-text { min-width: 0; }
-.home-intro-text p { margin: 0; }
-@media (max-width: 540px) {
-  .home-intro { grid-template-columns: 112px minmax(0, 1fr); gap: 1rem; }
+.about-profile-identity { margin-top: 0.85rem; }
+.about-profile-name {
+  font-family: "DM Sans", "Segoe UI", sans-serif;
+  font-size: 1.07rem;
+  font-weight: 650;
+  line-height: 1.35;
+  color: var(--site-heading-color);
+  margin: 0 0 0.5rem !important;
 }
-@media (max-width: 440px) {
-  .home-intro { display: block; }
-  .home-portrait { float: left; width: 112px; margin: 0.15rem 1rem 0.55rem 0; }
-  .home-intro::after { content: ""; display: block; clear: both; }
+.about-profile-email {
+  font-size: 0.78rem;
+  line-height: 1.55 !important;
+  color: var(--global-text-color-light);
+  margin: 0 !important;
+}
+.about-profile-label { font-weight: 600; }
+.about-profile-main { min-width: 0; }
+.post article .about-profile-main p {
+  margin: 0 0 1.14rem;
+  line-height: 1.76;
+}
+@media (max-width: 730px) {
+  .about-profile-layout {
+    grid-template-columns: 145px minmax(0, 1fr);
+    column-gap: 2rem;
+  }
+  .about-profile-sidebar { width: 145px; }
+  .about-profile-email { font-size: 0.74rem; }
+}
+@media (max-width: 560px) {
+  .about-profile-layout {
+    grid-template-columns: minmax(0, 1fr);
+    row-gap: 1.7rem;
+  }
+  .about-profile-sidebar {
+    display: grid;
+    grid-template-columns: 125px minmax(0, 1fr);
+    column-gap: 1.1rem;
+    align-items: start;
+    width: 100%;
+  }
+  .about-profile-identity { margin-top: 0; }
+  .about-profile-name { margin-bottom: 0.45rem !important; }
+  .about-profile-email { font-size: 0.81rem; }
 }
