@@ -15,7 +15,7 @@ description:
       <div class="cv-entry-main">
         <p class="cv-primary">London School of Economics and Political Science</p>
         <p class="cv-secondary">MPhil/PhD in Economic History</p>
-        <p class="cv-detail">LSE PhD Studentship (2024–2028)</p>
+        <p class="cv-detail">Fully funded by LSE PhD Studentship (2024–2028)</p>
       </div>
       <span class="cv-date">Sep 2024 – Present</span>
     </div>
