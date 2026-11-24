@@ -14,12 +14,12 @@ I have collected and digitised poor-relief accounts for **132 additional parishe
 <div class="research-list">
   <section class="research-entry">
     <h2>Why Did Poor Relief Expand?</h2>
-    <p>Parish relief responded to subsistence shocks, but these responses dissipated rather than generating a sustained ratchet effect. I investigate how local economic structures and institutional arrangements shaped long-run expansion, including how fiscal adjustment asymmetry could translate short-run pressures into longer-lasting changes in relief provision.</p>
+    <p>The long-run expansion of parish poor relief reflected decisions made locally under changing economic and institutional conditions. Using parish expenditure and financial accounts, I examine the roles of subsistence pressures, local economic structures, and institutional arrangements. I also test whether temporary shocks generated ratchet effects and whether asymmetric fiscal adjustment could translate short-run pressures into longer-lasting changes in relief provision.</p>
   </section>
 
   <section class="research-entry">
-    <h2>Did Poor Relief Subsidise Wages before Speenhamland?</h2>
-    <p>Economic interpretations of the Old Poor Law emphasise labour-market incentives (<a href="https://www.cambridge.org/core/journals/journal-of-economic-history/article/abs/poor-law-report-reexamined/5AE530C1CA75D48AFA1919DEDD5133F2">Blaug, 1964</a>; <a href="https://doi.org/10.1017/CBO9780511528590">Boyer, 1990</a>), while historical accounts suggest that wage-subsidy arrangements may have existed before Speenhamland (<a href="https://manchesteruniversitypress.co.uk/9780719049408/">King, 2000</a>). Because parish accounts rarely identify such payments directly, I develop an indirect empirical test using relief responses to wheat-price shocks across wage conditions.</p>
+    <h2>Food Prices, Wages, and Poor Relief in Early Modern England</h2>
+    <p>Using local projections, I examine how parish relief responded to rising food prices, declining wages, and their interaction from 1600 to 1786. Relief responded most clearly to food-price increases, with falling agricultural wages amplifying these responses particularly in the eighteenth century. Drawing on itemised parish accounts and evidence on seasonal labour markets and alternative livelihoods, I investigate what these patterns reveal about the evolving economic functions of poor relief, including support for working households.</p>
   </section>
 
   <section class="research-entry">
